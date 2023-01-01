@@ -10,7 +10,7 @@ export default function SingleCocktail() {
 
   React.useEffect(() => {
     setLoading(true);
-    async function getcocktail() {
+    async function getCocktail() {
       try {
         const response = await fetch(
           `https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i=${id}`
@@ -24,18 +24,18 @@ export default function SingleCocktail() {
             strCategory: category,
             strGlass: glass,
             strInstructions: instructions,
-            stringredient1,
-            stringredient2,
-            stringredient3,
-            stringredient4,
-            stringredient5,
+            strIngredient1,
+            strIngredient2,
+            strIngredient3,
+            strIngredient4,
+            strIngredient5,
           } = data.drinks[0];
           const ingredients = [
-            stringredient1,
-            stringredient2,
-            stringredient3,
-            stringredient4,
-            stringredient5,
+            strIngredient1,
+            strIngredient2,
+            strIngredient3,
+            strIngredient4,
+            strIngredient5,
           ];
           const newCocktail = {
             cocktailName,
@@ -55,7 +55,7 @@ export default function SingleCocktail() {
       }
       setLoading(false);
     }
-    getcocktail();
+    getCocktail();
   }, [id]);
 
   if (loading) {
