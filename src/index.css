@@ -56,7 +56,7 @@ body {
   color: var(--mainBlack);
   background: var(--mainBackground);
   line-height: 1.4;
-  font-size: 1rem;
+  font-size: 0.6rem;
   font-weight: 300;
 }
 h1,
@@ -99,7 +99,7 @@ Buttons
   display: inline-block;
   transition: var(--mainTransition);
   cursor: pointer;
-  font-size: 0.8rem;
+  font-size: 0.6rem;
   background: transparent;
   border-radius: var(--mainBorderRadius);
   display: inline-block;
@@ -172,7 +172,7 @@ Navbar
   margin-right: 0.5rem;
   font-weight: 400;
   letter-spacing: 2px;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
   padding: 0.25rem 0.5rem;
   transition: var(--mainTransition);
 }
@@ -220,7 +220,7 @@ Cocktails List
   padding: 5rem 0;
 }
 .section-title {
-  font-size: 2rem;
+  font-size: 1.4rem;
   text-transform: capitalize;
   letter-spacing: var(--mainSpacing);
   text-align: center;
@@ -274,7 +274,7 @@ Cocktail
   margin-bottom: 0.3rem;
 }
 .cocktail-footer h3 {
-  font-size: 2rem;
+  font-size: 1.4rem;
 }
 .cocktail-footer p {
   color: var(--darkGrey);
@@ -315,7 +315,7 @@ Form
   background: var(--mainBackground);
   border-radius: var(--mainBorderRadius);
   padding: 0.5rem;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
 }
 /* 
 ====== 
@@ -378,7 +378,7 @@ Cocktail
   margin: 88px auto;
   margin-top: 20rem;
   position: relative;
-  font-size: 3rem;
+  font-size: 2rem;
   -webkit-transform: translateZ(0);
   -ms-transform: translateZ(0);
   transform: translateZ(0);
