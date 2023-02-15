@@ -56,7 +56,7 @@ body {
   color: var(--mainBlack);
   background: var(--mainBackground);
   line-height: 1.4;
-  font-size: 0.6rem;
+  font-size: 1rem;
   font-weight: 300;
 }
 h1,
@@ -99,7 +99,7 @@ Buttons
   display: inline-block;
   transition: var(--mainTransition);
   cursor: pointer;
-  font-size: 0.6rem;
+  font-size: 1rem;
   background: transparent;
   border-radius: var(--mainBorderRadius);
   display: inline-block;
@@ -232,6 +232,7 @@ Cocktails List
   margin: 0 auto;
   max-width: var(--fullWidth);
   display: grid;
+  /* grid-template-columns: 4fr 1fr; */
   row-gap: 2rem;
   column-gap: 2rem;
   /* align-items: start; */
