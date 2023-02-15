@@ -308,7 +308,7 @@ Form
 
   font-weight: bold;
   letter-spacing: 0.25rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: var(--primaryColor);
 }
 .form-control input {
